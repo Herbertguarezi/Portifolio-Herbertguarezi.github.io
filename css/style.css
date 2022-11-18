@@ -1,0 +1,14 @@
+@import url(./global.css);
+/* utilidades */
+@import url(./utilidades/cores.css);
+@import url(./utilidades/tipografia.css);
+
+/* projeto */
+@import url(./header.css);
+@import url(./introducao.css);
+@import url(./resumo.css);
+@import url(./projetos.css);
+@import url(./habilidades.css);
+@import url(./contato.css);
+@import url(./footer.css);
+

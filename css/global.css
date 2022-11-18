@@ -1,0 +1,36 @@
+h1, h2, p, body, ul{
+  margin: 0px;
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+.imagem{
+  width: 100%;
+  display: block;
+}
+
+.imagem-2{
+  display: block;
+}
+
+.logos{
+  display: inline-block;
+}
+
+.bg-apresentacao {
+  background-color: #1A1A1A;
+  padding: 80px 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}

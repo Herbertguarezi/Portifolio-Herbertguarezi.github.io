@@ -1,0 +1,14 @@
+.contato{  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+
+.contato-informacao{
+  margin-bottom: 80px;
+}
+
+.contato-informacao .imagem-2{
+  margin: auto;
+  margin-bottom: 40px;
+}

@@ -5,7 +5,6 @@
 
 .introducao-bg2{
   background-color: #7605B3;
-  
 }
 
 .introducao-container{
@@ -30,6 +29,8 @@
 .introducao-texto{ 
   color: #A407F8;
   font-size: 2rem;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .introducao-nome{
@@ -38,3 +39,23 @@
   font-size: 2.25rem;
   color: #fff;
 }
+
+.animacao-digitar{
+  animation: typing 4s steps(40) 1s normal both;
+}
+
+@keyframes typing {
+  from{
+    width: 0px;
+  }
+  to{
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+

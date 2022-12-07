@@ -1,0 +1,33 @@
+/* cores light-mode */
+.light-mode:root{
+    /* background */
+    --bg-1: #fff;
+    --bg-2: #F7F7F7;
+    --bg-3: #BFBFBF;
+    --bg-4: #620495;
+    --bg-5: #7605B3;
+
+    /* tipografia */
+  --tp-branco: #fff;
+  --tp-1: #191919;
+  --tp-1: #656565;
+  --tp-1: #bfbfbf;
+  --tp-1: #31024A;
+}
+
+/* cores dark-mode */
+.dark-mode{
+  /* background */
+  --bg-1: #000;
+  --bg-2: #1a1a1a;
+  --bg-3: #262626;
+  --bg-4: #31024A;
+  --bg-5: #7605B3;
+
+
+  /* tipografia */
+  --tp-branco: #fff;
+  --tp-1: #d9d9d9;
+  --tp-1: #bfbfbf;
+  --tp-1: #A407F8;
+}

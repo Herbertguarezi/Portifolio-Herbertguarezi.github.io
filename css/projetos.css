@@ -19,6 +19,7 @@
 
 .projetos:hover{
   background-color: #67029e;
+  scale: 1.01;
 }
 
 .projetos-titulo{

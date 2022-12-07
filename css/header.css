@@ -35,3 +35,14 @@
   color: #fff;
 }
 
+#modos{
+  box-sizing: border-box;
+  transition: 1s
+}
+
+#modos:hover{
+  margin-left: 4px;
+  rotate: 0 0 1 90deg;
+  scale: 1.2;
+}
+

@@ -21,7 +21,7 @@ ul{
 }
 
 .bg-apresentacao {
-  background-color: #1A1A1A;
+  background-color: var(--bg-2);
   padding: 80px 0px;
 }
 

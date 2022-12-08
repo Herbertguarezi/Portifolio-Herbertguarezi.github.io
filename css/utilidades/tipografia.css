@@ -1,7 +1,9 @@
+
+
 .titulo-g {
   font: 700 3rem "Roboto", sans-serif;
   text-align: center;
-  color: #d9d9d9;
+  color: var(--tp-1);
   margin-bottom: 40px;
   text-transform: uppercase;
 }
@@ -9,18 +11,18 @@
 .texto-regular {
   text-align: center;
   font: 400 1.5rem/2.5 "Roboto", sans-serif;
-  color: #bfbfbf;
+  color: var(--tp-3);
 }
 
 .texto-regular-neg {
   text-align: center;
   font: 700 1.5rem/2.5 "Roboto", sans-serif;
-  color: #bfbfbf;
+  color: var(--tp-3);
 }
 
 .texto-medio-neg {
   font: 700 1.5rem "Roboto", sans-serif;
   text-align: center;
   padding: 20px;
-  color: #fff;
+  color: var(--tp-branco);
 }

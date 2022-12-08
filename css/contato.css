@@ -10,7 +10,7 @@
 }
 
 .contato-informacao i{
-  color: #149E57;
+  color: var(--bg-8);
   width: 100%;
   text-align: center;
   margin-bottom: 20px;
@@ -19,5 +19,5 @@
 
 .contato-informacao i:hover{
   scale: 1.1;
-  color: #17B363;
+  color: var(--bg-9);
 }

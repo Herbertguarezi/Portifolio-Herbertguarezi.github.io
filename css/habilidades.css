@@ -1,34 +1,33 @@
-.habilidades{
+.habilidades {
   max-width: 1200px;
   margin: auto;
 }
 
-.habilidades-titulo{
+.habilidades-titulo {
   font-size: 3rem;
   font-weight: 700;
   font-family: "Roboto", sans-serif;
   text-align: center;
-  color: #D9D9D9;
+  color: var(--tp-1);
   margin-bottom: 40px;
   text-transform: uppercase;
 }
 
-.habilidades-logos{
+.habilidades-logos {
   display: flex;
   justify-content: center;
   gap: 50px;
 }
 
-.habilidades-logos i{
-  background-color: #1F1F1F;
-  border: 5px solid #262626;
+.habilidades-logos i {
+  background-color: var(--bg-2-3);
+  border: 5px solid var(--bg-3);
   border-radius: 5px;
-  color: #620495;
+  color: var(--bg-5);
   padding: 20px 20px;
-  transition: .75s;
+  transition: 0.75s;
 }
-.habilidades-logos i:hover{
+.habilidades-logos i:hover {
   scale: 1.1;
-  color: #8400CC;
+  color: var(--bg-7);
 }
-

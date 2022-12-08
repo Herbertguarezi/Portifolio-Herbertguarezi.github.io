@@ -1,33 +1,41 @@
 /* cores light-mode */
 .light-mode:root{
     /* background */
-    --bg-1: #fff;
+    --bg-1: #f7f7f7;
     --bg-2: #F7F7F7;
+    --bg-2-3: #E6E6E6;
     --bg-3: #BFBFBF;
-    --bg-4: #620495;
-    --bg-5: #7605B3;
+    --bg-4: #31024A;
+    --bg-5: #620495;
+    --bg-8: #00B256;
+    --bg-9: #00994A;
 
     /* tipografia */
   --tp-branco: #fff;
   --tp-1: #191919;
-  --tp-1: #656565;
-  --tp-1: #bfbfbf;
-  --tp-1: #31024A;
+  --tp-2: #e6e6e6;
+  --tp-3: #656565;
+  --tp-4: #31024A;
 }
 
 /* cores dark-mode */
-.dark-mode{
+:root{
   /* background */
   --bg-1: #000;
   --bg-2: #1a1a1a;
+  --bg-2-3: #1f1f1f;
   --bg-3: #262626;
   --bg-4: #31024A;
   --bg-5: #7605B3;
-
+  --bg-6: #67029e;
+  --bg-7: #8400cc;
+  --bg-8: #149E57;
+  --bg-9: #17B363;
 
   /* tipografia */
   --tp-branco: #fff;
   --tp-1: #d9d9d9;
-  --tp-1: #bfbfbf;
-  --tp-1: #A407F8;
+  --tp-2: #bfbfbf;
+  --tp-3: #999999;
+  --tp-4: #A407F8;
 }

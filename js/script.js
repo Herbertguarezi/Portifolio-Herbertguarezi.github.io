@@ -5,7 +5,8 @@ function troca_modo(){
   html.classList.toggle('light-mode')
 }
 
-console.log('Bem vindo')
+console.log('Bem vindo');
 
 btn_modos.addEventListener('click', troca_modo);
 
+console.log('teste');

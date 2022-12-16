@@ -1,8 +1,8 @@
-.header-bg{
+.header-bg {
   background-color: var(--bg-4);
 }
 
-.header{
+.header {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -13,94 +13,98 @@
   margin: 0 auto;
 }
 
-.desktop{
+.desktop {
   display: none;
 }
 
-.logo{
+.logo {
   text-decoration: none;
   font: 700 2.5rem "Montserrat", sans-serif;
-  color: #17B363;
+  color: #17b363;
   display: inline-block;
+  background-color: rgba(0, 0, 0, 0.25);
+  padding: 6px 12px;
+  border-radius: 2px;
 }
 
-.header-nav{
+.header-nav {
+  align-items: center;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
 }
 
-.header-nav a{
-  color: var(--tp-branco);
+.header-nav a {
+  color: var(--tp-5);
   text-decoration: none;
   font-size: 1.5rem;
   padding: 16px 0px;
 }
 
-.header-nav a span{
+.header-nav a span {
   color: rgba(255, 255, 255, 0);
   transition: 0.3s;
 }
 
-.header-nav a:hover .dec{
-  color: var(--tp-branco);
+.header-nav a:hover .dec {
+  color: var(--tp-5);
 }
 
-#modos{
-  box-sizing: border-box;
-  transition: 1s
+#modos {
+  transition: 0.5s;
+  color: var(--tp-5);
 }
 
-#modos:hover{
+#modos:hover {
   margin-left: 4px;
-  rotate: 0 0 1 90deg;
   scale: 1.2;
 }
 
-.desktop{
+.desktop {
   display: none;
 }
 
-@media(max-width: 1200px){
-  .header-nav a{
+@media (max-width: 1200px) {
+  .header-nav a {
     gap: 10px;
   }
-  .logo{
+  .logo {
     font-size: 2.5rem;
   }
 }
 
-@media(max-width: 1000px){
-  .header-nav{
+@media (max-width: 1000px) {
+  .header-nav {
     gap: 5px;
   }
-  .header-nav a{
+  .header-nav a {
     font-size: 1.25rem;
   }
-  .logo{
+  .logo {
     font-size: 1.9rem;
   }
 }
 
-@media(max-width: 600px){
-  .header-nav a{
+@media (max-width: 600px) {
+  .header-nav a {
     font-size: 1.25rem;
-    background-color: rgba(0, 0, 0, .25);
+    background-color: rgba(0, 0, 0, 0.25);
     padding: 6px 12px;
     border-radius: 4px;
   }
-  .logo{
+  .logo {
     font-size: 1.9rem;
   }
-  #modos{
+  #modos {
     display: none;
   }
-  .header{
+  .header {
     justify-content: center;
     gap: 20px;
   }
-  .logo{
-    background-color: rgba(0, 0, 0, .25);
+  .logo {
+    background-color: rgba(0, 0, 0, 0.25);
     padding: 6px 12px;
+    border-radius: 4px;
   }
 }

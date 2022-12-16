@@ -1,27 +1,34 @@
-h1, h2, p, body, ul, span, li{
+h1,
+h2,
+p,
+body,
+ul,
+span,
+li,
+i {
   padding: 0px;
   margin: 0px;
   text-decoration: none;
 }
 
-ul{
+ul {
   list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-.imagem{
+.imagem {
   width: 100%;
-  display:  inline-block;
+  display: inline-block;
 }
 
-.imagem-2{
+.imagem-2 {
   display: block;
 }
 
-.logos{
+.logos {
   display: inline-block;
 }
 
@@ -34,7 +41,7 @@ html {
   scroll-behavior: smooth;
 }
 
-.container{
+.container {
   max-width: 1200px;
   margin: 0 auto;
   margin-bottom: 80px;

@@ -1,13 +1,13 @@
-.introducao-bg{
+.introducao-bg {
   background-color: var(--bg-4);
   padding: 80px 0px 140px 0px;
 }
 
-.introducao-bg2{
+.introducao-bg2 {
   background-color: var(--bg-5);
 }
 
-.introducao-container{
+.introducao-container {
   max-width: 1200px;
   margin: auto;
   display: grid;
@@ -15,121 +15,121 @@
   align-items: center;
 }
 
-.introducao-bg3{
+.introducao-bg3 {
   background-color: var(--bg-1);
   padding: 40px 20px;
   border-radius: 10px;
   box-shadow: 0px 60px var(--bg-1);
   margin: auto;
   line-height: 1.05;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
 }
 
-.introducao-texto{ 
+.introducao-texto {
   color: var(--tp-4);
   font-size: 2rem;
   white-space: nowrap;
   overflow: hidden;
 }
 
-.identacao{
+.identacao {
   text-indent: 40px;
 }
 
-.introducao-nome{
+.introducao-nome {
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 400 ;
-  font-size: 2.25rem; 
+  font-weight: 400;
+  font-size: 2.25rem;
   color: var(--tp-branco);
 }
 
-@media(max-width: 1000px){
-  .introducao-bg{
+@media (max-width: 1000px) {
+  .introducao-bg {
     padding: 40px 0px 70px 0px;
   }
-  .introducao-bg3{
+  .introducao-bg3 {
     padding: 35px 15px;
     border-radius: 10px;
     box-shadow: 0px 30px var(--bg-1);
   }
-  .introducao-texto{
+  .introducao-texto {
     font-size: 1.5rem;
   }
-  .introducao-nome{
+  .introducao-nome {
     font-size: 1.75rem;
   }
-  .intrducao-profissao{
+  .intrducao-profissao {
     font-size: 1.5rem;
   }
-  .identacao{
+  .identacao {
     text-indent: 20px;
   }
 }
 
-@media(max-width: 800px){
-  .introducao-bg{
+@media (max-width: 800px) {
+  .introducao-bg {
     padding: 30px 0px 50px 0px;
   }
-  .introducao-bg3{
+  .introducao-bg3 {
     padding: 35px 15px;
     border-radius: 10px;
     box-shadow: 0px 15px var(--bg-1);
   }
-  .introducao-texto{
+  .introducao-texto {
     font-size: 1.35rem;
   }
-  .introducao-nome{
+  .introducao-nome {
     font-size: 1.5rem;
   }
-  .intrducao-profissao{
+  .intrducao-profissao {
     font-size: 1.35rem;
   }
-  .identacao{
+  .identacao {
     text-indent: 15px;
   }
 }
 
-@media(max-width: 700px){
-  .introducao-bg3{
+@media (max-width: 700px) {
+  .introducao-bg3 {
     padding: 25px 7px;
     border-radius: 8px;
     box-shadow: 0px 15px var(--bg-1);
   }
-  .introducao-texto{
-    font-size: 1.20rem;
+  .introducao-texto {
+    font-size: 1.2rem;
   }
-  .introducao-nome{
+  .introducao-nome {
     font-size: 1.35rem;
   }
-  .intrducao-profissao{
-    font-size: 1.20rem;
+  .intrducao-profissao {
+    font-size: 1.2rem;
   }
-  .identacao{
+  .identacao {
     text-indent: 10px;
   }
 }
 
-@media(max-width: 600px){
-  .introducao-container{
+@media (max-width: 600px) {
+  .introducao-container {
     grid-template-columns: 1fr;
   }
-  .introducao-bg2{
+  .introducao-bg2 {
     padding: 15px;
   }
-  .introducao-bg3{
+  .introducao-bg3 {
     padding: 20px 45px;
     border-radius: 20px;
     box-shadow: 0px 0px;
     margin-bottom: 7px;
   }
-  .introducao-texto{
-    font-size: 1.20rem;
+  .introducao-texto {
+    font-size: 1.2rem;
   }
-  .introducao-nome{
+  .introducao-nome {
     font-size: 1.35rem;
     text-align: center;
   }
-  .intrducao-profissao{
-    font-size: 1.20rem;
+  .intrducao-profissao {
+    font-size: 1.2rem;
   }
 }

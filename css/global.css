@@ -1,4 +1,5 @@
-h1, h2, p, body, ul{
+h1, h2, p, body, ul, span, li{
+  padding: 0px;
   margin: 0px;
   text-decoration: none;
 }
@@ -7,9 +8,13 @@ ul{
   list-style: none;
 }
 
+a{
+  text-decoration: none;
+}
+
 .imagem{
   width: 100%;
-  display: block;
+  display:  inline-block;
 }
 
 .imagem-2{
